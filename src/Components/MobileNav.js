@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ".../Styles/MobileNav.scss";
+import "../Styles/MobileNav.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";

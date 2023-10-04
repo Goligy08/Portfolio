@@ -1,8 +1,8 @@
 import React from "react";
-import ".../Styles/Projects.scss";
+import "../Styles/Projects.scss";
 import Project from "../Project";
-import SpecialProject from "../SpecialProject";
-import ProjectRecords from ".../ProjectRecords.json";
+import SpecialProject from "./SpecialProject";
+import ProjectRecords from "../ProjectRecords.json";
 
 const Projects = ({toggleDarkMode}) => {
 

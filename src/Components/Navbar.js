@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink} from 'react-router-hash-link';
-import ".../Styles/Navbar.scss";
+import "../Styles/Navbar.scss";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import '.../Styles/MiniProject.scss';
+import '../Styles/MiniProject.scss';
 
 
 const MiniProject  = (props) => {

@@ -1,6 +1,6 @@
 import React from "react";
-import "../Styles/Contact.scss";
-import ContactForm from "../ContactForm";
+import "./Styles/Contact.scss";
+import ContactForm from "./ContactForm";
 import { Link } from "react-router-dom";
 import { faClose, faCommentDots} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

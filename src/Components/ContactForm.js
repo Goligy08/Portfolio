@@ -1,5 +1,5 @@
 import React from "react";
-import ".../Styles/ContactForm.scss";
+import "../Styles/ContactForm.scss";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useForm } from "react-hook-form";

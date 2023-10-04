@@ -5,7 +5,7 @@ import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import { motion } from "framer-motion";
 
 
-import '.../Styles/Project.scss';
+import '../Styles/Project.scss';
 
 
 const anImage = {

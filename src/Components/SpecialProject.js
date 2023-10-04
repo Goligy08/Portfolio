@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 
 
-import ".../Styles/SpecialProject.scss";
+import "../Styles/SpecialProject.scss";
 
  const anImage = {
     initial: {scale: 1},

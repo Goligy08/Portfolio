@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ".../Styles/Hero.scss";
+import "../Styles/Hero.scss";
 
 
 const Hero = ({toggleDarkMode}) => {
