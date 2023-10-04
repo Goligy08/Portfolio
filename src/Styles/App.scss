@@ -1,0 +1,29 @@
+@import "./Variables.scss";
+@import "./Navbar.scss";
+@import "./Hero.scss";
+@import "./Projects.scss";
+@import "./Footer.scss";
+
+
+
+
+
+.app{
+    width: 100vw;
+    height: 5800px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    overflow-x: hidden;
+
+    @media (min-width: 500px) {
+     height: 6400px;
+       
+    
+      }
+    
+}
+
+.app.darkmode{
+    background-color: $nordGrey;
+}
