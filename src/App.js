@@ -66,7 +66,7 @@ let toggleDarkMode = darkMode ? ' darkmode' : '' ;
                   />
              </Route>
 
-             <Route path="./contact">
+             <Route path="/contact">
                 <Contact
                 toggleDarkMode={toggleDarkMode}
                 />
@@ -108,7 +108,7 @@ let toggleDarkMode = darkMode ? ' darkmode' : '' ;
               />
          </Route>
 
-         <Route path="./contact">
+         <Route path="/contact">
             <Contact
             toggleDarkMode={toggleDarkMode}
             />
