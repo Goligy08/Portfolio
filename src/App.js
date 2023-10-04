@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import Projects from "./Components/Projects";
-import Footer from './Components/Footer';
-import MobileNav from './Components/MobileNav';
-import Contact from './Components/Contact';
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import Projects from "../Components/Projects";
+import Footer from '../Components/Footer';
+import MobileNav from '../Components/MobileNav';
+import Contact from '../Components/Contact';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import "./Styles/App.scss";
+import "../Styles/App.scss";
 
 
 
@@ -66,7 +66,7 @@ let toggleDarkMode = darkMode ? ' darkmode' : '' ;
                   />
              </Route>
 
-             <Route path="/contact">
+             <Route path="./contact">
                 <Contact
                 toggleDarkMode={toggleDarkMode}
                 />
@@ -108,7 +108,7 @@ let toggleDarkMode = darkMode ? ' darkmode' : '' ;
               />
          </Route>
 
-         <Route path="/contact">
+         <Route path="./contact">
             <Contact
             toggleDarkMode={toggleDarkMode}
             />
